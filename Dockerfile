@@ -1,4 +1,4 @@
-FROM maven:3.8.4-openjdk-17 AS stage1
+FROM maven:3.8.7-openjdk-17 AS stage1
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
